@@ -1,0 +1,5622 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b8d58eb5-14b7-49a8-8716-cd73c819380b")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LED:NeoPixel_THT"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "NeoPixel_THT"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.adafruit.com/product/1938"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*D5.0mm* LED*D8.0mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NeoPixel_THT_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "NeoPixel_THT_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "NeoPixel_THT_1_1"
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 87.63 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0425054b-48c8-4c81-b42c-69bbcfadfafd")
+	)
+	(junction
+		(at 167.64 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04801c1d-3582-4e4c-97b1-e18d633433db")
+	)
+	(junction
+		(at 167.64 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08f4a701-9c18-4200-8ce6-3d8c8f520bac")
+	)
+	(junction
+		(at 140.97 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e34c2fc-54d0-4456-82a4-6bc7b307a1c8")
+	)
+	(junction
+		(at 114.3 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e6f24ce-7da7-4039-a3f1-2eb20a0d4ae5")
+	)
+	(junction
+		(at 34.29 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f454125-2758-452b-b3a3-49ceadae70e7")
+	)
+	(junction
+		(at 114.3 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12c957f7-a3da-4680-aefe-ed1f684867f0")
+	)
+	(junction
+		(at 34.29 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "138d4bac-ae18-40c9-95d9-a5fed768a3fa")
+	)
+	(junction
+		(at 34.29 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c34b1ad-dff2-43fd-8580-d80ec20ca214")
+	)
+	(junction
+		(at 114.3 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d789a2e-5545-4e58-a71b-dbab8654006c")
+	)
+	(junction
+		(at 60.96 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f30e0eb-5728-475c-9191-198962743af0")
+	)
+	(junction
+		(at 140.97 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32b6fa23-84b4-4e9e-b8bb-901ba995da96")
+	)
+	(junction
+		(at 34.29 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34118af2-686b-4792-a506-f1c3de12978d")
+	)
+	(junction
+		(at 34.29 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3963bd53-854d-44fd-8429-4a7c6c3d0cdc")
+	)
+	(junction
+		(at 60.96 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a24fad0-31ba-4e77-b0a0-2b36e45d02c9")
+	)
+	(junction
+		(at 193.04 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b8efb5c-dfc6-4cda-97b9-2e8f6e9e4ee1")
+	)
+	(junction
+		(at 167.64 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e53c76e-32b6-4e2b-a45a-a636676c523d")
+	)
+	(junction
+		(at 167.64 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4680a142-ee17-4c30-9880-ec0a530ac4e5")
+	)
+	(junction
+		(at 140.97 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b11d3ed-39ad-4d2f-9f19-ef5f041eb0e2")
+	)
+	(junction
+		(at 114.3 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54eca4cc-968a-4516-a79e-3a3e89cd4ec0")
+	)
+	(junction
+		(at 60.96 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a247c93-20a0-483b-b597-6e50cb2fec93")
+	)
+	(junction
+		(at 87.63 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5df61b9a-0259-4c71-a686-91baab1926f5")
+	)
+	(junction
+		(at 87.63 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61b82f3a-e757-4dbc-b9fc-a3c704cac076")
+	)
+	(junction
+		(at 167.64 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63ea7d2f-4183-4985-8ef2-e182801c532c")
+	)
+	(junction
+		(at 167.64 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "665d81db-1c7b-4bfc-a8a3-5fbf5c5f06cb")
+	)
+	(junction
+		(at 140.97 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "679175be-5753-47ce-b067-c0e28f141ec1")
+	)
+	(junction
+		(at 114.3 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69d8cc06-807d-4aa6-b30e-c97b0b86aba4")
+	)
+	(junction
+		(at 34.29 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71b13742-6eea-423c-a063-8a9619785c0a")
+	)
+	(junction
+		(at 19.05 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "723e11b4-238f-4a7c-a893-e047a163991f")
+	)
+	(junction
+		(at 60.96 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "732c1e1f-e6f3-430c-bd7b-e0852e4d7697")
+	)
+	(junction
+		(at 87.63 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "746d89fa-b812-441e-909a-b7fb9eee9888")
+	)
+	(junction
+		(at 114.3 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76a1e27b-6577-420a-a191-adb1f8ff35a5")
+	)
+	(junction
+		(at 193.04 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77eaa09f-a4c6-4656-9437-d2420a870449")
+	)
+	(junction
+		(at 19.05 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78ce1a1a-7f66-4149-9306-0fc020f2db02")
+	)
+	(junction
+		(at 60.96 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "893f18cb-7194-444f-8da1-1bde1afdad81")
+	)
+	(junction
+		(at 19.05 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bf8375e-38e3-4a31-8cfa-b24f853c3240")
+	)
+	(junction
+		(at 114.3 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90078b93-bb9f-4047-9f1b-894fcdb33d74")
+	)
+	(junction
+		(at 87.63 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9691ce8e-1d6d-47f8-b08d-478ff19d1a2e")
+	)
+	(junction
+		(at 140.97 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c906961-2017-42e3-8300-3512646ebc49")
+	)
+	(junction
+		(at 140.97 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9df963c3-bd0f-4337-ab30-13233df11855")
+	)
+	(junction
+		(at 34.29 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a034aeba-4cbe-47c3-b44c-88bac7bd84bf")
+	)
+	(junction
+		(at 60.96 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1df2cfb-5b0d-4dea-9f18-9d4efb201edd")
+	)
+	(junction
+		(at 60.96 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac8aa091-f9ae-4f5a-bedb-fd68ab9b010c")
+	)
+	(junction
+		(at 87.63 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b13d14e8-bde0-42b2-9f70-dc3f545c1fa7")
+	)
+	(junction
+		(at 140.97 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b22cd4ad-e1b3-4847-97f0-31f7baa2ed47")
+	)
+	(junction
+		(at 193.04 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9b27911-8618-4d73-9e78-91066744b09f")
+	)
+	(junction
+		(at 34.29 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba7faee2-54ab-4045-89ab-cfe2e7955b1b")
+	)
+	(junction
+		(at 19.05 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c45ff232-fa5d-48f9-9d80-cbc7293238a6")
+	)
+	(junction
+		(at 167.64 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c74eec28-91d6-4e60-a4dc-2f7fa007a4ad")
+	)
+	(junction
+		(at 60.96 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7c14eca-814b-49c8-8c08-e37dcbe2684e")
+	)
+	(junction
+		(at 87.63 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c864eac3-e1ab-4827-b044-231f7a701791")
+	)
+	(junction
+		(at 60.96 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1eeaddd-92b1-4255-b13e-26d12528db4f")
+	)
+	(junction
+		(at 140.97 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2ebcc0c-f50b-45d9-8947-08c399987d18")
+	)
+	(junction
+		(at 114.3 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8faf983-5a7f-4225-a4bd-6e45047c47ba")
+	)
+	(junction
+		(at 114.3 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc4fa3b9-93b6-4de7-860c-aabaa1f16658")
+	)
+	(junction
+		(at 87.63 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e52a87fb-26bb-4aeb-b68c-cd8fd46a41fe")
+	)
+	(junction
+		(at 34.29 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7e4d32f-e858-4196-a065-b468d055f558")
+	)
+	(junction
+		(at 140.97 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7635e62-32b6-4928-befa-40e42ac74b53")
+	)
+	(junction
+		(at 87.63 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc887876-a175-43c2-8e65-4e95a74d806a")
+	)
+	(wire
+		(pts
+			(xy 87.63 101.6) (xy 114.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00bd6587-affa-4a0f-a74b-1d86dbe007be")
+	)
+	(wire
+		(pts
+			(xy 114.3 91.44) (xy 114.3 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0209cf93-f471-457b-921d-30dd5d2e4ff7")
+	)
+	(wire
+		(pts
+			(xy 167.64 120.65) (xy 167.64 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06146318-b30c-4678-85c2-12ef2c69a4c2")
+	)
+	(wire
+		(pts
+			(xy 114.3 143.51) (xy 140.97 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "089adc4e-2064-4bc0-b4ae-dd7d74f83964")
+	)
+	(wire
+		(pts
+			(xy 95.25 109.22) (xy 106.68 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cb7b056-2085-4842-b1c9-9e844573bbd4")
+	)
+	(wire
+		(pts
+			(xy 34.29 101.6) (xy 60.96 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f540895-ba0d-4c18-9086-8d8728752e32")
+	)
+	(wire
+		(pts
+			(xy 193.04 101.6) (xy 193.04 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc332e0-1f97-4acb-b947-f9aee5d4687b")
+	)
+	(wire
+		(pts
+			(xy 34.29 63.5) (xy 34.29 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10bcf33b-f7d0-4a57-b753-7e814849d7eb")
+	)
+	(wire
+		(pts
+			(xy 34.29 40.64) (xy 19.05 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1391cd4f-039a-4a1a-b005-42ce648f9703")
+	)
+	(wire
+		(pts
+			(xy 181.61 124.46) (xy 26.67 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14108c25-baff-45c8-89a6-1691d9688263")
+	)
+	(wire
+		(pts
+			(xy 114.3 128.27) (xy 87.63 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "167a7e4f-f08d-4710-a66e-2c93e8ae5a8b")
+	)
+	(wire
+		(pts
+			(xy 114.3 116.84) (xy 140.97 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bab06df-76ba-4fcb-aa7b-36acb0db4ef8")
+	)
+	(wire
+		(pts
+			(xy 167.64 128.27) (xy 140.97 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f864991-c700-4570-91c4-242215847002")
+	)
+	(wire
+		(pts
+			(xy 140.97 40.64) (xy 167.64 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "284a6ec3-b413-4f38-96b7-830143f6b189")
+	)
+	(wire
+		(pts
+			(xy 167.64 116.84) (xy 140.97 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cc17123-f377-4da9-ba7d-4694896f714d")
+	)
+	(wire
+		(pts
+			(xy 140.97 63.5) (xy 114.3 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e04584b-3932-4cba-a52a-acc5736b715b")
+	)
+	(wire
+		(pts
+			(xy 68.58 109.22) (xy 80.01 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33401cec-3229-4960-a9df-a2aea90e5c16")
+	)
+	(wire
+		(pts
+			(xy 175.26 135.89) (xy 181.61 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33eaffe2-1a31-4b08-b971-0a15c92c9586")
+	)
+	(wire
+		(pts
+			(xy 24.13 52.07) (xy 24.13 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "379b2cff-837e-4540-a199-2cf17702efcc")
+	)
+	(wire
+		(pts
+			(xy 60.96 116.84) (xy 34.29 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea13d5f-02b7-4e78-ad63-35587128451a")
+	)
+	(wire
+		(pts
+			(xy 181.61 135.89) (xy 181.61 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3090e2-e49c-4467-8230-ba0ccd48a8e9")
+	)
+	(wire
+		(pts
+			(xy 193.04 48.26) (xy 193.04 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41e0d1c7-b50a-405d-a97d-ebaf8ddee1fb")
+	)
+	(wire
+		(pts
+			(xy 68.58 55.88) (xy 80.01 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42dfcff1-768b-4e62-891e-d21e0786898a")
+	)
+	(wire
+		(pts
+			(xy 167.64 76.2) (xy 140.97 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45fb9b1f-7002-48c4-823b-71fdc70cf7e1")
+	)
+	(wire
+		(pts
+			(xy 87.63 40.64) (xy 114.3 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46aefdfb-297a-46a4-be54-fb46ee5fdf3c")
+	)
+	(wire
+		(pts
+			(xy 19.05 91.44) (xy 19.05 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46fdba24-a13b-44ee-b02c-36098db5a4b6")
+	)
+	(wire
+		(pts
+			(xy 182.88 55.88) (xy 182.88 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47be58a6-eb50-4567-940c-81fd8445df49")
+	)
+	(wire
+		(pts
+			(xy 114.3 101.6) (xy 140.97 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aa39129-76a0-4434-8b24-6dc9d76dbb86")
+	)
+	(wire
+		(pts
+			(xy 121.92 135.89) (xy 133.35 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dd6c3d6-1ce4-4deb-8dfe-763f3f38c21d")
+	)
+	(wire
+		(pts
+			(xy 114.3 63.5) (xy 114.3 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e9e8c5d-7990-47a3-bfe2-78a56d371a6d")
+	)
+	(wire
+		(pts
+			(xy 87.63 76.2) (xy 60.96 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51960fc0-36e7-42ab-9c68-0c7496adcffa")
+	)
+	(wire
+		(pts
+			(xy 140.97 48.26) (xy 167.64 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5673afea-8f31-41b8-92b5-0b75abb5d19e")
+	)
+	(wire
+		(pts
+			(xy 60.96 91.44) (xy 60.96 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56932ecd-2cb5-4966-922a-27b005c940b7")
+	)
+	(wire
+		(pts
+			(xy 26.67 97.79) (xy 26.67 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a9541e-ad3d-477b-a52d-e4620f57fa51")
+	)
+	(wire
+		(pts
+			(xy 140.97 76.2) (xy 114.3 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aa9eba8-9502-4229-aac9-cc1a7e323862")
+	)
+	(wire
+		(pts
+			(xy 140.97 91.44) (xy 140.97 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c017696-ecf9-4d57-8c6c-745d95d4654c")
+	)
+	(wire
+		(pts
+			(xy 60.96 116.84) (xy 60.96 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e7b6f08-50a2-4629-bc69-cb1d1d5e1deb")
+	)
+	(wire
+		(pts
+			(xy 114.3 76.2) (xy 87.63 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ed60ec6-29f1-494b-a41d-c32d54fb96b8")
+	)
+	(wire
+		(pts
+			(xy 34.29 91.44) (xy 34.29 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "626c6bd2-6bc1-4528-b272-e901a4849c1e")
+	)
+	(wire
+		(pts
+			(xy 114.3 48.26) (xy 140.97 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65351726-3a57-4d67-a91d-75bdef552ebc")
+	)
+	(wire
+		(pts
+			(xy 140.97 101.6) (xy 167.64 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "696ff3d4-8f96-4d30-a2a5-0ae12129603c")
+	)
+	(wire
+		(pts
+			(xy 26.67 72.39) (xy 26.67 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae14a51-8bd4-4e72-af3d-96c84c723728")
+	)
+	(wire
+		(pts
+			(xy 181.61 109.22) (xy 181.61 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6af21445-211f-467b-8b3e-e25d77926ab9")
+	)
+	(wire
+		(pts
+			(xy 87.63 116.84) (xy 114.3 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc04721-88f4-4045-aa43-fd931673e1b2")
+	)
+	(wire
+		(pts
+			(xy 148.59 83.82) (xy 160.02 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f202150-cec2-42d8-8668-87d728309498")
+	)
+	(wire
+		(pts
+			(xy 41.91 83.82) (xy 53.34 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70063b7a-9609-4f61-b93f-a70343095a81")
+	)
+	(wire
+		(pts
+			(xy 140.97 116.84) (xy 140.97 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71708958-a8f9-48b2-ab25-f51a31e671dd")
+	)
+	(wire
+		(pts
+			(xy 34.29 63.5) (xy 19.05 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73e3be32-bd29-4002-a556-3c5272d640d4")
+	)
+	(wire
+		(pts
+			(xy 193.04 41.91) (xy 193.04 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75fd5c05-ae91-402e-9881-323d48a4cd4d")
+	)
+	(wire
+		(pts
+			(xy 68.58 135.89) (xy 80.01 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76cdbc1d-e3b1-4ef9-8f03-190324387eab")
+	)
+	(wire
+		(pts
+			(xy 60.96 63.5) (xy 34.29 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c924cf0-7e9f-4660-99e5-a137c8060699")
+	)
+	(wire
+		(pts
+			(xy 34.29 143.51) (xy 60.96 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ec846e8-1e8f-4621-8113-b378a131af2b")
+	)
+	(wire
+		(pts
+			(xy 140.97 128.27) (xy 114.3 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81e3c9b8-b364-412e-bee8-4aa8bda94cec")
+	)
+	(wire
+		(pts
+			(xy 34.29 116.84) (xy 34.29 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "881afb4d-3a2b-4f3f-ac83-2023bdd20608")
+	)
+	(wire
+		(pts
+			(xy 87.63 91.44) (xy 87.63 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b14866b-3d35-49c1-85e5-c865e0d6135f")
+	)
+	(wire
+		(pts
+			(xy 34.29 48.26) (xy 60.96 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e07cdaf-fefc-48dd-8e41-9655a76fe357")
+	)
+	(wire
+		(pts
+			(xy 193.04 101.6) (xy 193.04 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e803848-0579-4a54-934e-179a208fb2f4")
+	)
+	(wire
+		(pts
+			(xy 34.29 116.84) (xy 19.05 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ed4d120-f7eb-4963-88e3-3da2b08770c6")
+	)
+	(wire
+		(pts
+			(xy 148.59 135.89) (xy 160.02 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90653f08-b540-4d0a-8474-a92028478436")
+	)
+	(wire
+		(pts
+			(xy 182.88 72.39) (xy 26.67 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90eba71f-6a09-4c36-8d05-47eb8a1f985c")
+	)
+	(wire
+		(pts
+			(xy 87.63 48.26) (xy 114.3 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "912c79d4-295e-4c20-a0d6-ec0ec0150a25")
+	)
+	(wire
+		(pts
+			(xy 193.04 76.2) (xy 167.64 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9372d075-bb25-4343-8846-67cefc8e9a6a")
+	)
+	(wire
+		(pts
+			(xy 19.05 143.51) (xy 19.05 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9463834a-40ec-42c9-9666-b1f77727f2b0")
+	)
+	(wire
+		(pts
+			(xy 68.58 83.82) (xy 80.01 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "990c7a19-ed58-4603-9cd9-009234155904")
+	)
+	(wire
+		(pts
+			(xy 114.3 40.64) (xy 140.97 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c6c5c74-fad3-4399-b40e-33e48654847e")
+	)
+	(wire
+		(pts
+			(xy 175.26 83.82) (xy 181.61 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cf8a4b5-cb9f-40b5-8b52-f17e2ca3ee2e")
+	)
+	(wire
+		(pts
+			(xy 175.26 109.22) (xy 181.61 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dc54354-5209-4c2c-9b79-28cf8db9425a")
+	)
+	(wire
+		(pts
+			(xy 140.97 143.51) (xy 167.64 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f9ac122-5887-4892-a7c5-4bbdf59cba8c")
+	)
+	(wire
+		(pts
+			(xy 19.05 143.51) (xy 34.29 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3b4acb8-069d-409e-a349-a643f6aa16f5")
+	)
+	(wire
+		(pts
+			(xy 140.97 63.5) (xy 140.97 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a5974e-b2bc-43b1-a7ea-cd1b9103e7eb")
+	)
+	(wire
+		(pts
+			(xy 60.96 101.6) (xy 87.63 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ca0a37-4701-4fbf-ac0f-0a6bd6bed95f")
+	)
+	(wire
+		(pts
+			(xy 175.26 55.88) (xy 182.88 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a71f3e8c-8ec7-4ab9-85bd-348ee68fb941")
+	)
+	(wire
+		(pts
+			(xy 121.92 83.82) (xy 133.35 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8337567-47f2-46f3-92d0-6c2eb55ed7fd")
+	)
+	(wire
+		(pts
+			(xy 167.64 63.5) (xy 140.97 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab2588b7-0f31-4c07-8d4a-cb86580107f9")
+	)
+	(wire
+		(pts
+			(xy 19.05 63.5) (xy 19.05 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac0f5089-99b4-4f67-b1f9-507143920a4c")
+	)
+	(wire
+		(pts
+			(xy 87.63 120.65) (xy 87.63 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac8b01cf-48ac-499a-a31f-b29fdcd47d1a")
+	)
+	(wire
+		(pts
+			(xy 26.67 124.46) (xy 26.67 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afafb4fd-26df-4b49-816a-c885647d51b1")
+	)
+	(wire
+		(pts
+			(xy 148.59 55.88) (xy 160.02 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b00c8c9e-be5c-4922-b160-7a877a16be24")
+	)
+	(wire
+		(pts
+			(xy 19.05 116.84) (xy 19.05 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b513cdf8-0b1b-4a17-b9df-cd3b4fb5320d")
+	)
+	(wire
+		(pts
+			(xy 60.96 63.5) (xy 60.96 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5cb7b1d-545a-4296-aacf-cbf5591b7c84")
+	)
+	(wire
+		(pts
+			(xy 121.92 109.22) (xy 133.35 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b71bf9dc-3a1d-468b-896e-67ad79e80979")
+	)
+	(wire
+		(pts
+			(xy 167.64 48.26) (xy 193.04 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc7088ef-8127-4152-b12b-5e40ed034737")
+	)
+	(wire
+		(pts
+			(xy 95.25 83.82) (xy 106.68 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be09f4eb-aa41-4f95-ac63-34b87fedd546")
+	)
+	(wire
+		(pts
+			(xy 181.61 83.82) (xy 181.61 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf085722-2b0e-4477-912c-1d5d40407fae")
+	)
+	(wire
+		(pts
+			(xy 60.96 48.26) (xy 87.63 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0c14ff2-c508-406a-bedb-c72ffa9020c4")
+	)
+	(wire
+		(pts
+			(xy 87.63 63.5) (xy 87.63 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c139ab78-edb9-4dbc-b57d-df909ec6144e")
+	)
+	(wire
+		(pts
+			(xy 181.61 97.79) (xy 26.67 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ce97d7-9571-4fd0-ba4b-c5c66d6544fb")
+	)
+	(wire
+		(pts
+			(xy 41.91 109.22) (xy 53.34 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c320d018-4e5f-45b9-a7a8-bda67c53872f")
+	)
+	(wire
+		(pts
+			(xy 34.29 91.44) (xy 60.96 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4a0c5f2-f1dd-4df4-83fc-e964d8defab5")
+	)
+	(wire
+		(pts
+			(xy 167.64 63.5) (xy 167.64 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f7da77-eebe-49e7-a46e-7d9d6657887c")
+	)
+	(wire
+		(pts
+			(xy 60.96 91.44) (xy 87.63 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c59ea9ba-a21d-4439-ba9e-832303f90103")
+	)
+	(wire
+		(pts
+			(xy 193.04 128.27) (xy 167.64 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a50918-6923-4f25-a179-ddd55f50e5f8")
+	)
+	(wire
+		(pts
+			(xy 167.64 101.6) (xy 193.04 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b6ada5-217d-46ce-8ff4-7e74c7b67ed1")
+	)
+	(wire
+		(pts
+			(xy 34.29 40.64) (xy 60.96 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7c456cb-d615-4234-8d3d-2a661fed0804")
+	)
+	(wire
+		(pts
+			(xy 114.3 91.44) (xy 140.97 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caae628e-d119-4635-a861-49a23f7059f1")
+	)
+	(wire
+		(pts
+			(xy 87.63 63.5) (xy 60.96 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdb66f1c-a58a-4586-99c0-3f542daaa8d6")
+	)
+	(wire
+		(pts
+			(xy 19.05 40.64) (xy 19.05 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc71a38-9d6b-4cb6-b408-de38c192eede")
+	)
+	(wire
+		(pts
+			(xy 140.97 91.44) (xy 167.64 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d18ebf27-697e-469b-88ab-cb66870aa615")
+	)
+	(wire
+		(pts
+			(xy 87.63 116.84) (xy 60.96 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4f0b832-ab78-45f8-8ad2-75cd395eb884")
+	)
+	(wire
+		(pts
+			(xy 114.3 120.65) (xy 114.3 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6f54b09-0bca-41bd-93a6-e431832cce28")
+	)
+	(wire
+		(pts
+			(xy 95.25 135.89) (xy 106.68 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbc0acbf-2e66-42ab-b1a6-cad7eeeecd13")
+	)
+	(wire
+		(pts
+			(xy 19.05 91.44) (xy 34.29 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de5f1896-2a4d-43f5-b77b-1fd22936c1cf")
+	)
+	(wire
+		(pts
+			(xy 41.91 55.88) (xy 53.34 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df74c2ab-d7b0-4d20-b64b-ac2f39ecc19f")
+	)
+	(wire
+		(pts
+			(xy 121.92 55.88) (xy 133.35 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e04400e7-6aff-4154-bee5-7f9119361134")
+	)
+	(wire
+		(pts
+			(xy 60.96 40.64) (xy 87.63 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e193713a-6855-485a-bdf0-cddb9d0df645")
+	)
+	(wire
+		(pts
+			(xy 148.59 109.22) (xy 160.02 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e42eb4b2-01ca-4e50-8ed8-4517e467c2fc")
+	)
+	(wire
+		(pts
+			(xy 87.63 143.51) (xy 114.3 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e654f712-f228-4dad-af57-9be5d0020d73")
+	)
+	(wire
+		(pts
+			(xy 167.64 93.98) (xy 167.64 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7d4d2a1-a902-40ea-8082-0f41787e1ee7")
+	)
+	(wire
+		(pts
+			(xy 60.96 76.2) (xy 34.29 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8290dc6-6c52-4f2a-8e9d-39bc51dc982e")
+	)
+	(wire
+		(pts
+			(xy 60.96 143.51) (xy 87.63 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed2bed96-640d-4134-a754-e6c7b6eba307")
+	)
+	(wire
+		(pts
+			(xy 114.3 63.5) (xy 87.63 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed43d530-6f3c-41fd-a68f-5606ab86fb12")
+	)
+	(wire
+		(pts
+			(xy 87.63 128.27) (xy 60.96 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee007290-13c5-4cf1-b9fb-0ca9dbde9a0d")
+	)
+	(wire
+		(pts
+			(xy 41.91 135.89) (xy 53.34 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2b976dc-569f-43ba-aed2-c5b93ccc81ab")
+	)
+	(wire
+		(pts
+			(xy 87.63 91.44) (xy 114.3 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3ca9725-66eb-4244-97f1-804ed5efc460")
+	)
+	(wire
+		(pts
+			(xy 60.96 128.27) (xy 34.29 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7b0752f-720a-4b18-9231-0967075149e6")
+	)
+	(wire
+		(pts
+			(xy 24.13 55.88) (xy 26.67 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f95d245b-2e3f-4701-b6b7-d79b5cf681ce")
+	)
+	(wire
+		(pts
+			(xy 95.25 55.88) (xy 106.68 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbf11f87-50fe-4f25-8e41-67f6f7a51b7d")
+	)
+	(hierarchical_label "+5V"
+		(shape input)
+		(at 193.04 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2b79738a-4f49-4b78-9c5d-6599b7cfb7ae")
+	)
+	(hierarchical_label "DOUT"
+		(shape output)
+		(at 181.61 140.97 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "326584a7-c13d-4fe9-9cae-38732e276385")
+	)
+	(hierarchical_label "DIN"
+		(shape input)
+		(at 24.13 52.07 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f4263ea-0a9b-44ee-b6b6-9426f142ab3e")
+	)
+	(symbol
+		(lib_id "LED:NeoPixel_THT")
+		(at 60.96 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03d0aedf-a51f-4351-8452-8b7a9991c4a2")
+		(property "Reference" "D14"
+			(at 73.66 102.9014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NeoPixel_THT"
+			(at 73.66 105.4414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+			(at 62.23 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/1938"
+			(at 63.5 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+			(at 60.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e300ee22-979c-40f9-96b4-450021e090db")
+		)
+		(pin "3"
+			(uuid "3a3df515-cb48-448d-a3b8-db41839e24df")
+		)
+		(pin "1"
+			(uuid "c94e85fa-d5d2-4637-b298-5181d90074b5")
+		)
+		(pin "4"
+			(uuid "43613aee-b463-48c2-a3f4-82610692fe7a")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:NeoPixel_THT")
+		(at 34.29 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "057fb6f6-73a2-45e0-90bd-4b6eb51e24b0")
+		(property "Reference" "D13"
+			(at 46.99 102.9014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NeoPixel_THT"
+			(at 46.99 105.4414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+			(at 35.56 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/1938"
+			(at 36.83 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+			(at 34.29 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f315ca06-00ae-4b43-98da-a9811074aa4c")
+		)
+		(pin "3"
+			(uuid "d53d8b8b-01e7-4503-89b0-08deb568b35b")
+		)
+		(pin "1"
+			(uuid "875aaf89-76ca-4ad2-8507-b488f0504c16")
+		)
+		(pin "4"
+			(uuid "2c246a29-ead5-4aaa-bfbf-7c4576cb3378")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09886296-978e-416d-8d81-e113ddd8a0b7")
+		(property "Reference" "C2"
+			(at 64.77 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 64.77 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 61.9252 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81541118-9be2-4349-a7ea-54897b69595b")
+		)
+		(pin "2"
+			(uuid "6663e5a3-cf38-41a5-aff2-6058e7743283")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:NeoPixel_THT")
+		(at 60.96 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d85368d-3421-42ae-989b-6cac9949cbbe")
+		(property "Reference" "D20"
+			(at 73.66 129.5714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NeoPixel_THT"
+			(at 73.66 132.1114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+			(at 62.23 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/1938"
+			(at 63.5 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+			(at 60.96 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "398a56fb-e128-447d-8d1e-bf2044a21ff8")
+		)
+		(pin "3"
+			(uuid "0322d744-2a24-4be3-be23-1c776b35483b")
+		)
+		(pin "1"
+			(uuid "20f59c42-f2fe-40ae-914c-913d3e3b4358")
+		)
+		(pin "4"
+			(uuid "28875c84-3a1f-4a7d-bcff-c008cd41178b")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 140.97 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14d8a914-72b8-4056-8f39-890be01278c5")
+		(property "Reference" "C5"
+			(at 144.78 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 144.78 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 141.9352 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 140.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92ccb1af-a6f6-4645-937b-6261b66e881d")
+		)
+		(pin "2"
+			(uuid "d197bf12-697f-4f65-9e19-553db3a257ab")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:NeoPixel_THT")
+		(at 114.3 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f806660-7f1f-4b08-80c3-e9113a9a5a38")
+		(property "Reference" "D22"
+			(at 127 129.5714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NeoPixel_THT"
+			(at 127 132.1114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+			(at 115.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/1938"
+			(at 116.84 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+			(at 114.3 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7d685717-bc49-4f89-ad69-1b656f852a0b")
+		)
+		(pin "3"
+			(uuid "6975763b-a28d-468c-a9c8-77fdca8448aa")
+		)
+		(pin "1"
+			(uuid "9752e19c-4708-4256-8695-98b304e33edf")
+		)
+		(pin "4"
+			(uuid "7eb9b817-5698-43ec-a635-67ead653d8a9")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 19.05 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2654195c-94fd-4b05-abf5-13e6b2b06d86")
+		(property "Reference" "#PWR01"
+			(at 19.05 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 19.05 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 19.05 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fe2977e-44e8-4c41-ba41-711eb744b3af")
+		)
+		(instances
+			(project ""
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:NeoPixel_THT")
+		(at 87.63 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26efae16-b114-48d3-9b23-ee7eccea5618")
+		(property "Reference" "D3"
+			(at 100.33 49.5614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NeoPixel_THT"
+			(at 100.33 52.1014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/1938"
+			(at 90.17 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+			(at 87.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3fbbf1d5-435f-459c-adb9-dfd9693db56b")
+		)
+		(pin "3"
+			(uuid "13e17bec-609b-45d6-a109-02a63617ce6b")
+		)
+		(pin "1"
+			(uuid "c305caee-6308-45e8-9f1f-8e827f60fcaa")
+		)
+		(pin "4"
+			(uuid "791f170f-c87b-41fb-81ac-799ba41e86dc")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:NeoPixel_THT")
+		(at 167.64 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2726aeef-785f-4ba8-9939-6068e9f2cbb3")
+		(property "Reference" "D6"
+			(at 180.34 49.5614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NeoPixel_THT"
+			(at 180.34 52.1014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+			(at 168.91 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/1938"
+			(at 170.18 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+			(at 167.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6aea2874-d42a-4f2b-8be7-3f8f181e0d5f")
+		)
+		(pin "3"
+			(uuid "4f0a0742-0688-49af-8efb-6ea1af61c553")
+		)
+		(pin "1"
+			(uuid "875e481d-5cb3-44ca-9544-3c665532bb37")
+		)
+		(pin "4"
+			(uuid "c2cece91-7aa3-4174-b688-600e88a98cdb")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 34.29 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2aecc799-41d4-4e1c-9341-cbbef67ea580")
+		(property "Reference" "C7"
+			(at 38.1 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 38.1 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 35.2552 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 34.29 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b791e8f-4c7c-4062-8513-e1c126a763fd")
+		)
+		(pin "2"
+			(uuid "82dee05a-9d8d-4c31-866a-9b873018803f")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:NeoPixel_THT")
+		(at 140.97 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bce747a-23a2-4ebb-a170-30cb34973c81")
+		(property "Reference" "D23"
+			(at 153.67 129.5714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NeoPixel_THT"
+			(at 153.67 132.1114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+			(at 142.24 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/1938"
+			(at 143.51 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+			(at 140.97 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "198685d4-2862-456d-943f-262edcb830fd")
+		)
+		(pin "3"
+			(uuid "96df39fe-bf98-42a7-b1f2-bff2bdead84e")
+		)
+		(pin "1"
+			(uuid "f0a43eaf-13c5-45b9-b419-c0d45cb3a944")
+		)
+		(pin "4"
+			(uuid "48a77f2b-bd7f-4a6f-9a37-ee344908daf5")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:NeoPixel_THT")
+		(at 34.29 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e9b933f-1ab9-4261-912a-147276fe26f6")
+		(property "Reference" "D1"
+			(at 46.99 49.5614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NeoPixel_THT"
+			(at 46.99 52.1014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+			(at 35.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/1938"
+			(at 36.83 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+			(at 34.29 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "17598e96-cfa0-401b-befb-cf3fc9d0a0ee")
+		)
+		(pin "3"
+			(uuid "41620e61-aa00-49dc-947c-73645d844904")
+		)
+		(pin "1"
+			(uuid "0af87a0c-fcb0-46d3-a252-778786991fe9")
+		)
+		(pin "4"
+			(uuid "a405935c-3fc8-4b8c-9828-c16e69942066")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 34.29 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4270dad8-a0f3-4fdb-ab9d-93de4407f4d7")
+		(property "Reference" "C13"
+			(at 38.1 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 38.1 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 35.2552 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7f9fa3a-201b-4772-bb8e-f2dca896b3de")
+		)
+		(pin "2"
+			(uuid "195bebb1-d1ed-4bd2-9398-616c2b7ddd6e")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 114.3 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43e1ae31-b433-4cbb-b274-f388d8558654")
+		(property "Reference" "C16"
+			(at 118.11 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 118.11 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 115.2652 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 114.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92caf928-2d4a-41c4-9168-cfa534ae090d")
+		)
+		(pin "2"
+			(uuid "8fad30ba-8256-4b9d-981a-0b49717bf267")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 87.63 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46f3d09c-0415-4db1-8b23-c0b5fb05b8dd")
+		(property "Reference" "C15"
+			(at 91.44 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 91.44 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 88.5952 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 87.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "883ac88a-6186-4729-922a-f9a66e8e86f4")
+		)
+		(pin "2"
+			(uuid "d9c05ddd-4fef-49c2-a365-70656edf3168")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:NeoPixel_THT")
+		(at 114.3 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fa30dbd-c8f5-4e48-b1c5-b9c6732e9c54")
+		(property "Reference" "D16"
+			(at 127 102.9014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NeoPixel_THT"
+			(at 127 105.4414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+			(at 115.57 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/1938"
+			(at 116.84 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "78f273bf-4051-4903-a2a6-3b75b5e205b4")
+		)
+		(pin "3"
+			(uuid "fb398360-d759-4f6e-af0d-fb4c2868b78d")
+		)
+		(pin "1"
+			(uuid "9621535c-36a6-4091-9901-cdc3c77da250")
+		)
+		(pin "4"
+			(uuid "5df3ada2-caf8-4d5f-803c-05094e9f15a4")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5942444b-70fe-4cab-84f0-a6c4b15e87db")
+		(property "Reference" "C14"
+			(at 64.77 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 64.77 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 61.9252 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df8b0d37-c2ed-46da-b5e1-7e33392a2c9a")
+		)
+		(pin "2"
+			(uuid "a4e25ddb-3894-4cef-9fc5-e6210b7014cc")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 87.63 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59dfdd43-001a-4fce-97a7-a8c783c2cd34")
+		(property "Reference" "C3"
+			(at 91.44 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 91.44 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 88.5952 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 87.63 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fc0bf3a-b559-49a9-ac67-df80a7d0bd7a")
+		)
+		(pin "2"
+			(uuid "51f4c8c5-3181-4738-8f68-3b0f25dbbca5")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61902787-fb36-4e2b-afbf-07bc3d8abf69")
+		(property "Reference" "C24"
+			(at 171.45 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 171.45 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 168.6052 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15a5f64d-23a9-4e17-b6e3-05b1bef2af56")
+		)
+		(pin "2"
+			(uuid "6c82b3d0-a0a4-48b4-9d0a-585dba65ec0d")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 114.3 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "641e93f8-3a2c-4991-b8af-a68171710f39")
+		(property "Reference" "C10"
+			(at 118.11 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nf"
+			(at 118.11 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 115.2652 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 114.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e1c7508-7a61-4426-9680-253e562ad0e3")
+		)
+		(pin "2"
+			(uuid "d8767d7d-69e1-458c-a1bf-4c8f6d968e9c")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:NeoPixel_THT")
+		(at 140.97 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64b80168-b0f4-4347-b39f-b24576281db1")
+		(property "Reference" "D5"
+			(at 153.67 49.5614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NeoPixel_THT"
+			(at 153.67 52.1014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+			(at 142.24 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/1938"
+			(at 143.51 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+			(at 140.97 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fe2ce308-e774-4a77-8a06-a776fe0094b3")
+		)
+		(pin "3"
+			(uuid "3300f9bc-95d1-4969-bfa8-c5030697fc7b")
+		)
+		(pin "1"
+			(uuid "8e01d0d3-5524-4755-bdf5-510874f12554")
+		)
+		(pin "4"
+			(uuid "d9cba3ca-8f06-4fb4-be1c-fd4d21a77056")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 114.3 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "716bf92f-d648-45c3-8f91-4b57f63456b9")
+		(property "Reference" "C22"
+			(at 118.11 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 118.11 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 115.2652 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 114.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a7a71b6-9a60-478b-9490-26b5de82387a")
+		)
+		(pin "2"
+			(uuid "06fad212-6840-4152-879e-37e352ca767f")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 87.63 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7587fe62-a52f-4ec4-a47e-f2356d952b7e")
+		(property "Reference" "C21"
+			(at 91.44 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 91.44 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 88.5952 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 87.63 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e53eeb0-0db6-4a70-be17-d9fc2e4b5d1a")
+		)
+		(pin "2"
+			(uuid "b28366ff-d4e6-4412-8399-a7c5ec097bc9")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e8e814f-9d7a-4d0a-aef3-437f277fcc07")
+		(property "Reference" "C8"
+			(at 64.77 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 64.77 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 61.9252 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bb3a292-ddbf-489c-bc85-e55ee2c6aa04")
+		)
+		(pin "2"
+			(uuid "16c9ba9c-c642-475f-a328-d6f99d688f09")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 114.3 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f266943-3ad8-4cff-91ba-28b9d1f09629")
+		(property "Reference" "C4"
+			(at 118.11 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 118.11 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 115.2652 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 114.3 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0b083a0-0fc5-4cb5-a342-002226860244")
+		)
+		(pin "2"
+			(uuid "bbadf9aa-fa0a-4148-a47f-cd34b0b666be")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f4f071d-41f0-401a-b1e4-0b8a4854a7e5")
+		(property "Reference" "C18"
+			(at 171.45 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 171.45 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 168.6052 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "126fdded-e829-4f7b-a6f5-a752cd7d542d")
+		)
+		(pin "2"
+			(uuid "c28b7798-2ee1-45e0-b9c0-7e11104cb816")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:NeoPixel_THT")
+		(at 87.63 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "822989f8-67c1-4e17-bd3d-8577add5e7db")
+		(property "Reference" "D15"
+			(at 100.33 102.9014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NeoPixel_THT"
+			(at 100.33 105.4414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+			(at 88.9 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/1938"
+			(at 90.17 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+			(at 87.63 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "71a87753-8a26-430a-b1fb-0f5b3ef24efb")
+		)
+		(pin "3"
+			(uuid "3dbc1460-4aee-49c7-afd7-d5b0dfa96996")
+		)
+		(pin "1"
+			(uuid "aa288ce7-7640-48af-bb97-13a583ab3146")
+		)
+		(pin "4"
+			(uuid "fdf6ec98-4110-48d4-9253-e88ef6d081ec")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:NeoPixel_THT")
+		(at 167.64 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a7b5e96-d980-4cbd-9d92-14fbc2160bfe")
+		(property "Reference" "D18"
+			(at 180.34 102.9014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NeoPixel_THT"
+			(at 180.34 105.4414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+			(at 168.91 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/1938"
+			(at 170.18 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+			(at 167.64 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "db0da35b-d681-43a8-9f47-b6da76e1edab")
+		)
+		(pin "3"
+			(uuid "bad2be06-0927-4bdf-8aaf-36132140f77f")
+		)
+		(pin "1"
+			(uuid "2ba9b606-43c4-446b-acdd-0d4b4275419b")
+		)
+		(pin "4"
+			(uuid "a4317e0d-4173-4ef8-ba43-20318755c7f9")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 87.63 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d0e9598-7070-470a-8f17-ad2717b60d68")
+		(property "Reference" "C9"
+			(at 91.44 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 91.44 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 88.5952 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 87.63 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ea59e0a-b7b7-46c1-984e-90733d14a129")
+		)
+		(pin "2"
+			(uuid "111b26f7-1bcf-4b79-93e5-c077262d3ad4")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 34.29 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "901a2d83-0acb-40df-b8c5-24bb596e650f")
+		(property "Reference" "C19"
+			(at 38.1 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 38.1 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 35.2552 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 34.29 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d3861fc-9005-4de4-9f66-90ada35359cd")
+		)
+		(pin "2"
+			(uuid "f08befb9-766f-4036-acee-febf3841d9cb")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a40b3701-1de3-4eb6-a920-347f7896abe2")
+		(property "Reference" "C6"
+			(at 171.45 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 171.45 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 168.6052 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ff15475-3c85-41e2-ac17-4414a525ee81")
+		)
+		(pin "2"
+			(uuid "9115995b-20c4-44d3-bc59-e0ef5c0725a9")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:NeoPixel_THT")
+		(at 87.63 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a86769ca-98b3-4b09-b97e-dd420c4be01a")
+		(property "Reference" "D21"
+			(at 100.33 129.5714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NeoPixel_THT"
+			(at 100.33 132.1114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+			(at 88.9 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/1938"
+			(at 90.17 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+			(at 87.63 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0f4bc42d-cc7e-4129-b0fd-805da6ff8c15")
+		)
+		(pin "3"
+			(uuid "c8e26638-9418-40c9-ba8d-be496c1da695")
+		)
+		(pin "1"
+			(uuid "337f28a6-0f65-4089-9a8e-d65f3a660a55")
+		)
+		(pin "4"
+			(uuid "0115b59e-91e0-4879-9edc-100ea52a3815")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad36b377-ccc4-4311-9a87-b95c49075870")
+		(property "Reference" "C20"
+			(at 64.77 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 64.77 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 61.9252 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04c41050-35f7-49c5-9310-eed8ecdfcd40")
+		)
+		(pin "2"
+			(uuid "3e9a8f0c-4fca-4102-92ae-dd4f1cb02c15")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:NeoPixel_THT")
+		(at 114.3 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b096a552-c3a3-4575-b1c5-3d23d69793a9")
+		(property "Reference" "D4"
+			(at 127 49.5614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NeoPixel_THT"
+			(at 127 52.1014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+			(at 115.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/1938"
+			(at 116.84 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+			(at 114.3 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "243603e8-6c0f-41a9-9d3d-bac5f209046c")
+		)
+		(pin "3"
+			(uuid "c47d5507-03d2-4287-9b51-61dad74dcc68")
+		)
+		(pin "1"
+			(uuid "b232478d-ead4-44e7-883f-9715042aad49")
+		)
+		(pin "4"
+			(uuid "aee98865-e068-40f9-8d68-a1dde42f5683")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:NeoPixel_THT")
+		(at 167.64 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b151c69e-5539-474e-8587-94fee52cde1b")
+		(property "Reference" "D12"
+			(at 180.34 77.5014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NeoPixel_THT"
+			(at 180.34 80.0414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+			(at 168.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/1938"
+			(at 170.18 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+			(at 167.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6425a631-ca87-451e-98c2-09588477292b")
+		)
+		(pin "3"
+			(uuid "a52ef68f-53ca-4654-b957-c56f3d164043")
+		)
+		(pin "1"
+			(uuid "0e88f632-567f-4624-8c58-4400dac49811")
+		)
+		(pin "4"
+			(uuid "415f7253-c747-4c1b-9b17-7edf9d7e1604")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 140.97 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4ce2845-e773-4e7a-a191-72247b64bf5c")
+		(property "Reference" "C23"
+			(at 144.78 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 144.78 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 141.9352 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 140.97 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e1d3c1f-389e-4316-ad43-8e27ddbf089d")
+		)
+		(pin "2"
+			(uuid "ef1d76ed-139e-477c-8d21-bc0dd19e6ba9")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:NeoPixel_THT")
+		(at 87.63 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbbc3e58-bbfd-411b-a26a-620e98abf7d4")
+		(property "Reference" "D9"
+			(at 100.33 77.5014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NeoPixel_THT"
+			(at 100.33 80.0414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/1938"
+			(at 90.17 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+			(at 87.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "52a7f138-e4cb-4290-81e6-89f48c01befb")
+		)
+		(pin "3"
+			(uuid "01f40938-78f7-4e06-a8aa-55804e84fc3c")
+		)
+		(pin "1"
+			(uuid "fee1f5b9-0dcb-4afd-a1fa-d53aea2a6c57")
+		)
+		(pin "4"
+			(uuid "4e07f906-4bd3-4425-9240-cf100384dd11")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:NeoPixel_THT")
+		(at 114.3 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c15c4ed3-2917-4cdb-8b6d-b44af3395a8e")
+		(property "Reference" "D10"
+			(at 127 77.5014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NeoPixel_THT"
+			(at 127 80.0414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/1938"
+			(at 116.84 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+			(at 114.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "45783b30-8e5b-4ff0-abfe-6d52cad767b8")
+		)
+		(pin "3"
+			(uuid "9db386fd-de8b-4ad7-a4a8-3a080fdc0056")
+		)
+		(pin "1"
+			(uuid "064c1a9a-ee3c-47c3-99cd-b88daa09f070")
+		)
+		(pin "4"
+			(uuid "543cf3ae-520e-4bc3-8247-6746d29682d3")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 140.97 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c79962c1-012c-48ae-9784-b4450b85fee9")
+		(property "Reference" "C11"
+			(at 144.78 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 144.78 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 141.9352 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 140.97 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "474f056a-f1a5-43dc-83a6-14394d2d714a")
+		)
+		(pin "2"
+			(uuid "fca8e432-89f4-47aa-8f40-10e350811e9e")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 140.97 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9222940-3c59-4578-842b-c8a5d6e76076")
+		(property "Reference" "C17"
+			(at 144.78 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 144.78 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 141.9352 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 140.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21832750-e4d0-4a68-88a7-8ba1fadb1ca1")
+		)
+		(pin "2"
+			(uuid "6922103d-e475-4688-9527-a1e8fcd07db5")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:NeoPixel_THT")
+		(at 140.97 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd03428d-2e4b-414a-8cbf-26538535f30a")
+		(property "Reference" "D17"
+			(at 153.67 102.9014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NeoPixel_THT"
+			(at 153.67 105.4414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+			(at 142.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/1938"
+			(at 143.51 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+			(at 140.97 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1c9e573d-4256-4c75-a4a0-ab05ff76ae0c")
+		)
+		(pin "3"
+			(uuid "a5219e65-b6aa-4597-b105-eac478900d98")
+		)
+		(pin "1"
+			(uuid "a61d56a6-7674-40fd-9fa0-56a1cbb3a805")
+		)
+		(pin "4"
+			(uuid "7678da1f-7c5a-4ce5-b881-15ca6e6724c8")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 34.29 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd4bb880-6eea-4146-a457-a06cf818fbc4")
+		(property "Reference" "C1"
+			(at 38.1 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 38.1 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 35.2552 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 34.29 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2058df3d-ee16-4599-8049-6b6432a2f049")
+		)
+		(pin "2"
+			(uuid "a6ceb70d-66d0-4636-9b38-57261af394d6")
+		)
+		(instances
+			(project ""
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:NeoPixel_THT")
+		(at 140.97 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cef346ea-5d9b-48f3-8a9b-932a28e7c008")
+		(property "Reference" "D11"
+			(at 153.67 77.5014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NeoPixel_THT"
+			(at 153.67 80.0414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+			(at 142.24 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/1938"
+			(at 143.51 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+			(at 140.97 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1eb3253-4d93-46a7-91c8-a3865e864e4d")
+		)
+		(pin "3"
+			(uuid "07890a28-48b9-4664-a9cb-692a5fcef768")
+		)
+		(pin "1"
+			(uuid "49245a59-a93f-4e33-9ec7-d10bcf096b0d")
+		)
+		(pin "4"
+			(uuid "ab3ee726-055a-4b7a-abb1-080b1aa1d88a")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:NeoPixel_THT")
+		(at 60.96 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2f4c352-5d69-47fc-9da9-3c50992324b9")
+		(property "Reference" "D2"
+			(at 73.66 49.5614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NeoPixel_THT"
+			(at 73.66 52.1014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/1938"
+			(at 63.5 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+			(at 60.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5a663c4f-a8cd-4691-a29b-8c6dd358f0bd")
+		)
+		(pin "3"
+			(uuid "aedd3cd2-c1ae-4bd5-baf3-7ac9d6b4ff6e")
+		)
+		(pin "1"
+			(uuid "279488c1-2673-4ee4-9eff-27df83c6a60f")
+		)
+		(pin "4"
+			(uuid "602ea206-8ca2-4f54-8508-212cc36373d4")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:NeoPixel_THT")
+		(at 167.64 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db5cec47-0dc8-49f8-b9aa-af8cc30a5b52")
+		(property "Reference" "D24"
+			(at 180.34 129.5714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NeoPixel_THT"
+			(at 180.34 132.1114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+			(at 168.91 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/1938"
+			(at 170.18 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+			(at 167.64 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d9e7a3e1-08b7-4208-ade4-71d26621f1aa")
+		)
+		(pin "3"
+			(uuid "da3ca8d0-f804-406d-b352-c97567da4401")
+		)
+		(pin "1"
+			(uuid "11da4150-be1d-4cdf-a5ee-ce2b948cb06f")
+		)
+		(pin "4"
+			(uuid "59756e9b-8b09-4eb6-9404-fa7a36c9aafa")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1237b64-6fd3-4afc-9702-e0543ffa6358")
+		(property "Reference" "C12"
+			(at 171.45 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 171.45 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 168.6052 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "468252fd-2cda-4eab-9554-a3584cbdc211")
+		)
+		(pin "2"
+			(uuid "9f051bbb-30c9-4e63-b45d-1aa6d783adfa")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:NeoPixel_THT")
+		(at 60.96 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f81324b0-d088-49c7-a890-c1ef3326fee4")
+		(property "Reference" "D8"
+			(at 73.66 77.5014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NeoPixel_THT"
+			(at 73.66 80.0414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+			(at 62.23 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/1938"
+			(at 63.5 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+			(at 60.96 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9bf4ba1e-9e52-49fd-9ee5-6aa6f2a7eb25")
+		)
+		(pin "3"
+			(uuid "eca910fa-7ff0-48a1-b96a-699b80128f9b")
+		)
+		(pin "1"
+			(uuid "abbb8d84-69ea-4503-a348-74977b9c62b5")
+		)
+		(pin "4"
+			(uuid "61b88d2c-a705-40eb-839e-33683c61fa02")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:NeoPixel_THT")
+		(at 34.29 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9e21a14-f079-411d-9014-cdf3b230f3b4")
+		(property "Reference" "D7"
+			(at 46.99 77.5014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NeoPixel_THT"
+			(at 46.99 80.0414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+			(at 35.56 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/1938"
+			(at 36.83 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+			(at 34.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "82a63b50-7b8b-40dc-a476-4ec5c0c27d3a")
+		)
+		(pin "3"
+			(uuid "6f24a443-c714-4fca-9816-bb3c797ffe9c")
+		)
+		(pin "1"
+			(uuid "85f29555-4a1c-4d1b-89ac-825fd77375b8")
+		)
+		(pin "4"
+			(uuid "03ec032b-1094-4660-8896-c95a5894eb14")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:NeoPixel_THT")
+		(at 34.29 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe79b9ed-9203-4b48-8c13-53f570cb50b9")
+		(property "Reference" "D19"
+			(at 46.99 129.5714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NeoPixel_THT"
+			(at 46.99 132.1114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+			(at 35.56 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/1938"
+			(at 36.83 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+			(at 34.29 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "278cc0a1-b1f6-4d24-b3e1-9572d7a38bf2")
+		)
+		(pin "3"
+			(uuid "80ac330c-f87b-4978-be54-1e764a881705")
+		)
+		(pin "1"
+			(uuid "5f1a64f3-1ff0-4ad6-b90c-c5a1f0089c08")
+		)
+		(pin "4"
+			(uuid "f4b59731-823e-4ecc-8369-1dc3a97ae1fa")
+		)
+		(instances
+			(project "CoasterBoard"
+				(path "/d26087f2-fe30-4035-80ba-d3d988eee88a/e49383bc-4ff6-4153-bcda-e4caed25c65e"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
